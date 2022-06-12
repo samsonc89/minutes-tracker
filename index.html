@@ -6,9 +6,44 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <div class="header"> </div>
-        <div class="timer"> </div>
-        <div class="timer-log"></div>
+        <div class="header">
+            <div class='header-name'>Header</div>
+            <ul class="header-links" style="list-style: none;"">
+                    <li>link one</li>
+                    <li>link two</li>
+                    <li>link three</li>
+            </ul>
+        </div>
+
+        <div class="timer"> 
+            <div class="clock-face"></div>
+            <div class="clock-buttons">
+                <div class="clock-type">
+                    <button class="type">Stopwatch</button>
+                    <button class="type">Timer</button>
+                </div>
+                <div class="clock-action">
+                    <button class="action">Start/Stop</button>
+                    <button class="action">Reset</button>
+                    <button class="action">Log</button>
+                </div>
+            </div>
+        </div>
+        <div class="timer-log">
+            <div class="activity-log">
+                <div class="activity">
+                    <div>Minutes</div>
+                    <div>Date</div>
+                </div>
+                <div class="activity">
+                    <div>Minutes</div>
+                    <div>Date</div>
+                </div>
+            </div>
+            <div class="activity-graph">
+                
+            </div>
+        </div>
         <div class="footer"> </div>
 
         <script src="./script.js"></script>

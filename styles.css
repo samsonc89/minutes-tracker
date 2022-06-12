@@ -1,0 +1,56 @@
+.header, .header-links, .timer, .clock-buttons, 
+.timer-log, .activity-log, .activity{
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.header-links{
+    gap: 15px;
+}
+
+.timer {
+    flex-direction: column;
+    background-color: rgb(10, 43, 43);
+    height:500px; /*Change this later to something that can 
+    be more dynamic*/
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-face {
+    background-color: white;
+    width:50%;
+    height: 50%;
+}
+
+.clock-buttons {
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer-log{
+    justify-content: center;
+    gap: 10px
+}
+.activity-log {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    gap:   10px;
+}
+
+.activity {
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.activity-graph{
+    flex:1;
+    background-color: black;
+}
